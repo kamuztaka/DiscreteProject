@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+.box
+{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    top: 15%;
+    left: 35%;
+    border-radius: 20px;
+}
+
+.txt
+{
+    height: 35px;
+    width: 300px;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    outline-color: gray;
+}
+
+.email
+{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+.password
+{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+
+.btn
+{
+    height: 35px;
+    width: 100px;
+}
+
+.submit
+{
+    background: #44AAE9;
+    border: none;
+    color: white;
+    position: absolute;
+    bottom: 25%;
+    right: 13%;
+}
+
+.submit:before
+{
+    content: "Submit";
+    cursor: pointer;
+}
+
+h1
+{
+    text-align: center;
+}
